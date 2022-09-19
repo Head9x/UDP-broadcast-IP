@@ -81,6 +81,7 @@ namespace UDPerSend
 
             do
             {
+                // Not meant to be a receiver
                 Thread.Sleep(5000);
                 udp.Send(udp.GetLocalIPAddress());
             } while (true);

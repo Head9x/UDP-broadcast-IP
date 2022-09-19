@@ -70,8 +70,6 @@ namespace UDPer
 
     }
 
-
-
     class Program
     {
         static void Main(string[] args)
@@ -95,7 +93,7 @@ namespace UDPer
                             return;
                     }
                 }
-                Thread.Sleep(1000);
+                Thread.Sleep(10);
             } while (true);
         }
     }
